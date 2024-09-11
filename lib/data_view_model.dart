@@ -25,7 +25,7 @@ class DataViewModel extends _$DataViewModel {
     final headers = {"Content-type": "application/json"};
 
     final request = Request(
-      appId: 'be35a9bf7c379cdf5ccd70941baa551a44a4f7e223c2eb1d466676f44256e1ae',
+      appId: const String.fromEnvironment("appID"),
       sentence: sentence,
     );
 
