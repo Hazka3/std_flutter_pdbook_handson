@@ -21,7 +21,7 @@ class _InputFormScreenState extends ConsumerState<InputFormScreen> {
 
     if (validate == false) return;
 
-    ref.read(dataPorivder.notifier).convert(sentence);
+    ref.read(dataViewModelProvider.notifier).convert(sentence);
   }
 
   @override

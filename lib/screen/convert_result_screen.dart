@@ -14,7 +14,7 @@ class ConvertResultScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     void onResetTap() {
-      ref.read(dataPorivder.notifier).reset();
+      ref.read(dataViewModelProvider.notifier).reset();
     }
 
     return Center(

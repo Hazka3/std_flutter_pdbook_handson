@@ -47,7 +47,7 @@ class HomeScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final appState = ref.watch(dataPorivder);
+    final appState = ref.watch(dataViewModelProvider);
 
     return Scaffold(
       appBar: AppBar(
