@@ -1,3 +1,6 @@
 {
-  "appTitle": "Hiragana Convert"
+  "appTitle": "Hiragana Convert",
+  "convertBtn": "変換",
+  "hintTextOfTextField": "変換する文章を入力してください",
+  "resetBtn": "リセット"
 }

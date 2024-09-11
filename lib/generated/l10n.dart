@@ -59,6 +59,36 @@ class S {
       args: [],
     );
   }
+
+  /// `Convert`
+  String get convertBtn {
+    return Intl.message(
+      'Convert',
+      name: 'convertBtn',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please enter the text to be converted`
+  String get hintTextOfTextField {
+    return Intl.message(
+      'Please enter the text to be converted',
+      name: 'hintTextOfTextField',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reset`
+  String get resetBtn {
+    return Intl.message(
+      'Reset',
+      name: 'resetBtn',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
