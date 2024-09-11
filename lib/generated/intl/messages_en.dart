@@ -24,8 +24,10 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "appTitle": MessageLookupByLibrary.simpleMessage("Hiragana Convert"),
         "convertBtn": MessageLookupByLibrary.simpleMessage("Convert"),
+        "emptyErrorText":
+            MessageLookupByLibrary.simpleMessage("Sentence is empty."),
         "hintTextOfTextField": MessageLookupByLibrary.simpleMessage(
-            "Please enter the text to be converted"),
+            "Please enter the sentence to be converted"),
         "resetBtn": MessageLookupByLibrary.simpleMessage("Reset")
       };
 }

@@ -1,6 +1,7 @@
 {
   "appTitle": "Hiragana Convert",
   "convertBtn": "Convert",
-  "hintTextOfTextField": "Please enter the text to be converted",
+  "hintTextOfTextField": "Please enter the sentence to be converted",
+  "emptyErrorText": "Sentence is empty.",
   "resetBtn": "Reset"
 }

@@ -70,11 +70,21 @@ class S {
     );
   }
 
-  /// `Please enter the text to be converted`
+  /// `Please enter the sentence to be converted`
   String get hintTextOfTextField {
     return Intl.message(
-      'Please enter the text to be converted',
+      'Please enter the sentence to be converted',
       name: 'hintTextOfTextField',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sentence is empty.`
+  String get emptyErrorText {
+    return Intl.message(
+      'Sentence is empty.',
+      name: 'emptyErrorText',
       desc: '',
       args: [],
     );

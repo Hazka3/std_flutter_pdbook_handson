@@ -33,6 +33,7 @@ class _InputFormScreenState extends ConsumerState<InputFormScreen> {
   @override
   Widget build(BuildContext context) {
     S.load(const Locale("ja"));
+
     return Form(
       key: _formKey,
       child: Center(
@@ -47,7 +48,7 @@ class _InputFormScreenState extends ConsumerState<InputFormScreen> {
                 controller: _textEditingController,
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return "空";
+                    return S.of(context).emptyErrorText;
                   }
                   return null;
                 },
